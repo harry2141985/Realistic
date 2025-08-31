@@ -1,0 +1,6 @@
+diffusers
+torch
+gradio
+accelerate
+transformers
+peft
