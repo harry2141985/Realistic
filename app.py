@@ -31,4 +31,5 @@ with gr.Blocks() as interface:
         generate_button.click(fn=generate, inputs=[prompt, negative_prompt, width, height, sampling_steps], outputs=[output])
 
 if __name__ == "__main__":
-    interface.launch()
+
+    interface.launch(share=True)
